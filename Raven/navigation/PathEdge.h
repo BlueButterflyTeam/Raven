@@ -10,7 +10,7 @@
 //          planner in the creation of paths. 
 //
 //-----------------------------------------------------------------------------
-#include "2d/vector2D.h"
+#include "../2d/vector2D.h"
 
 class PathEdge
 {

@@ -1,10 +1,10 @@
 #include "Weapon_Blaster.h"
 #include "../Raven_Bot.h"
-#include "misc/Cgdi.h"
+#include "../misc/Cgdi.h"
 #include "../Raven_Game.h"
 #include "../Raven_Map.h"
 #include "../lua/Raven_Scriptor.h"
-#include "fuzzy/FuzzyOperators.h"
+#include "../fuzzy/FuzzyOperators.h"
 
 
 //--------------------------- ctor --------------------------------------------

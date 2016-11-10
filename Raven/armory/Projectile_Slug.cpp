@@ -1,14 +1,14 @@
 #include "Projectile_Slug.h"
 #include "../lua/Raven_Scriptor.h"
-#include "misc/cgdi.h"
+#include "../misc/cgdi.h"
 #include "../Raven_Bot.h"
 #include "../Raven_Game.h"
-#include "game/EntityFunctionTemplates.h"
-#include "2d/WallIntersectionTests.h"
+#include "../game/EntityFunctionTemplates.h"
+#include "../2d/WallIntersectionTests.h"
 #include "../Raven_Map.h"
 
 #include "../Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
+#include "../Messaging/MessageDispatcher.h"
 
 #include <list>
 

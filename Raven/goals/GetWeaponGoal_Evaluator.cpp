@@ -1,6 +1,6 @@
 #include "GetWeaponGoal_Evaluator.h"
 #include "../Raven_ObjectEnumerations.h"
-#include "misc/Stream_Utility_Functions.h"
+#include "../misc/Stream_Utility_Functions.h"
 #include "../Raven_Game.h"
 #include "../Raven_Map.h"
 #include "Goal_Think.h"

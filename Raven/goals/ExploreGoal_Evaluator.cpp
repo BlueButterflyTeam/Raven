@@ -2,7 +2,7 @@
 #include "../navigation/Raven_PathPlanner.h"
 #include "../Raven_ObjectEnumerations.h"
 #include "../lua/Raven_Scriptor.h"
-#include "misc/Stream_Utility_Functions.h"
+#include "../misc/Stream_Utility_Functions.h"
 #include "Raven_Feature.h"
 
 #include "Goal_Think.h"

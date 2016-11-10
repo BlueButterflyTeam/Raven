@@ -9,7 +9,7 @@
 //
 //  Desc:   A Singleton Scriptor class for use with the Raven project
 //-----------------------------------------------------------------------------
-#include "Script/scriptor.h"
+#include "../Script/Scriptor.h"
 
 
 

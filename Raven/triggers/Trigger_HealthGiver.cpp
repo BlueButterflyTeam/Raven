@@ -1,6 +1,6 @@
 #include "Trigger_HealthGiver.h"
-#include "misc/Cgdi.h"
-#include "misc/Stream_Utility_Functions.h"
+#include "../misc/Cgdi.h"
+#include "../misc/Stream_Utility_Functions.h"
 #include <fstream>
 #include "../lua/Raven_Scriptor.h"
 #include "../constants.h"

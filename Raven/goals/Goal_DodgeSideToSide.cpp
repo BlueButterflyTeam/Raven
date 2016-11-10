@@ -4,11 +4,11 @@
 #include "../Raven_SteeringBehaviors.h"
 #include "../Raven_Game.h"
 
-#include "Messaging/Telegram.h"
+#include "../Messaging/Telegram.h"
 #include "../Raven_Messages.h"
 
-#include "debug/DebugConsole.h"
-#include "misc/cgdi.H"
+#include "../debug/DebugConsole.h"
+#include "../misc/cgdi.H"
 
 
 //------------------------------- Activate ------------------------------------

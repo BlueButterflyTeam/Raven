@@ -2,7 +2,7 @@
 #define GOAL_ENUMERATIONS_H
 
 #include <string>
-#include "misc/TypeToString.h"
+#include "../misc/TypeToString.h"
 
 enum
 {

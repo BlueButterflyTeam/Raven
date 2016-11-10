@@ -2,14 +2,14 @@
 #include "..\Raven_Bot.h"
 #include "Raven_Goal_Types.h"
 #include "..\Raven_SteeringBehaviors.h"
-#include "time/CrudeTimer.h"
+#include "../time/CrudeTimer.h"
 #include "..\constants.h"
 #include "../navigation/Raven_PathPlanner.h"
-#include "misc/cgdi.h"
+#include "../misc/cgdi.h"
 #include "../lua/Raven_Scriptor.h"
 
 
-#include "debug/DebugConsole.h"
+#include "../debug/DebugConsole.h"
 
 
 

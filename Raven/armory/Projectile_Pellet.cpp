@@ -1,16 +1,16 @@
 #include "Projectile_Pellet.h"
 #include "../lua/Raven_Scriptor.h"
-#include "misc/cgdi.h"
+#include "../misc/cgdi.h"
 #include "../Raven_Bot.h"
 #include "../Raven_Game.h"
-#include "game/EntityFunctionTemplates.h"
+#include "../game/EntityFunctionTemplates.h"
 #include "../constants.h"
-#include "2d/WallIntersectionTests.h"
+#include "../2d/WallIntersectionTests.h"
 #include "../Raven_Map.h"
 #include <list>
 
 #include "../Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
+#include "../Messaging/MessageDispatcher.h"
 
 
 

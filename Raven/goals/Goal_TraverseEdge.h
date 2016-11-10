@@ -2,8 +2,8 @@
 #define GOAL_TRAVERSE_EDGE_H
 #pragma warning (disable:4786)
 
-#include "Goals/Goal.h"
-#include "2d/Vector2D.h"
+#include "../Goals/Goal.h"
+#include "../2d/Vector2D.h"
 #include "../navigation/Raven_PathPlanner.h"
 #include "../navigation/PathEdge.h"
 

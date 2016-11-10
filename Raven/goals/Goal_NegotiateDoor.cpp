@@ -8,7 +8,7 @@
 #include "Goal_TraverseEdge.h"
 
 
-#include "debug/DebugConsole.h"
+#include "../debug/DebugConsole.h"
 
 
 

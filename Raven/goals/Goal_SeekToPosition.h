@@ -2,8 +2,8 @@
 #define GOAL_SEEK_TO_POSITION_H
 #pragma warning (disable:4786)
 
-#include "Goals/Goal.h"
-#include "2d/Vector2D.h"
+#include "../goals/Goal.h"
+#include "../2d/Vector2D.h"
 #include "Raven_Goal_Types.h"
 #include "../Raven_Bot.h"
 

@@ -2,7 +2,7 @@
 #include "../Raven_ObjectEnumerations.h"
 #include "Goal_Think.h"
 #include "Raven_Goal_Types.h"
-#include "misc/Stream_Utility_Functions.h"
+#include "../misc/Stream_Utility_Functions.h"
 #include "Raven_Feature.h"
 
 

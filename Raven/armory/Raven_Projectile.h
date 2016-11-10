@@ -12,9 +12,9 @@
 //          types of projectile: Slugs (railgun), Pellets (shotgun), Rockets
 //          (rocket launcher ) and Bolts (Blaster) 
 //-----------------------------------------------------------------------------
-#include "game/MovingEntity.h"
-#include "2d/Vector2D.h"
-#include "time/CrudeTimer.h"
+#include "../game/MovingEntity.h"
+#include "../2d/Vector2D.h"
+#include "../time/CrudeTimer.h"
 #include <list>
 
 class Raven_Game;

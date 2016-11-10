@@ -1,8 +1,8 @@
 #include "Goal_Think.h"
 #include <list>
-#include "misc/Cgdi.h"
+#include "../misc/Cgdi.h"
 #include "../Raven_ObjectEnumerations.h"
-#include "misc/utils.h"
+#include "../misc/utils.h"
 #include "../lua/Raven_Scriptor.h"
 
 #include "Goal_MoveToPosition.h"

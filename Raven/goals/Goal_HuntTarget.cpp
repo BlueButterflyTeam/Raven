@@ -6,8 +6,8 @@
 
 
 
-#include "debug/DebugConsole.h"
-#include "misc/cgdi.h"
+#include "../debug/DebugConsole.h"
+#include "../misc/cgdi.h"
 
 //---------------------------- Initialize -------------------------------------
 //-----------------------------------------------------------------------------  

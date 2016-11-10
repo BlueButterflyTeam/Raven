@@ -1,21 +1,21 @@
 #include "Raven_PathPlanner.h"
 #include "../Raven_Game.h"
-#include "misc/utils.h"
-#include "graph/GraphAlgorithms.h"
-#include "misc/Cgdi.h"
+#include "../misc/utils.h"
+#include "../graph/GraphAlgorithms.h"
+#include "../misc/Cgdi.h"
 #include "../Raven_Bot.h"
 #include "../constants.h"
 #include "../Raven_UserOptions.h"
 #include "pathmanager.h"
 #include "SearchTerminationPolicies.h"
 #include "../lua/Raven_Scriptor.h"
-#include "misc/CellSpacePartition.h"
+#include "../misc/CellSpacePartition.h"
 #include "../Raven_Messages.h"
-#include "Messaging/MessageDispatcher.h"
-#include "graph/NodeTypeEnumerations.h"
+#include "../Messaging/MessageDispatcher.h"
+#include "../graph/NodeTypeEnumerations.h"
 
 
-#include "Debug/DebugConsole.h"
+#include "../Debug/DebugConsole.h"
 //#define SHOW_NAVINFO
 #include <cassert>
 

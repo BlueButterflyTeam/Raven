@@ -11,12 +11,12 @@
 //-----------------------------------------------------------------------------
 #include <vector>
 
-#include "2d/Vector2D.h"
-#include "time/CrudeTimer.h"
-#include "misc/utils.h"
+#include "../2d/Vector2D.h"
+#include "../time/CrudeTimer.h"
+#include "../misc/utils.h"
 #include "../lua/Raven_Scriptor.h"
 #include "../Raven_Bot.h"
-#include "Fuzzy/FuzzyModule.h"
+#include "../Fuzzy/FuzzyModule.h"
 
 
 

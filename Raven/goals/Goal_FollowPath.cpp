@@ -4,7 +4,7 @@
 
 #include "Goal_TraverseEdge.h"
 #include "Goal_NegotiateDoor.h"
-#include "misc/cgdi.h"
+#include "../misc/cgdi.h"
 
 
 

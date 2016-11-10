@@ -1,12 +1,12 @@
 #include "Trigger_SoundNotify.h"
-#include "Triggers/TriggerRegion.h"
+#include "../Triggers/TriggerRegion.h"
 #include "../Raven_Game.h"
 #include "../lua/Raven_Scriptor.h"
 #include "../constants.h"
-#include "Messaging/MessageDispatcher.h"
+#include "../Messaging/MessageDispatcher.h"
 #include "../Raven_Messages.h"
 
-#include "misc/cgdi.h"
+#include "../misc/cgdi.h"
 
 //------------------------------ ctor -----------------------------------------
 //-----------------------------------------------------------------------------
