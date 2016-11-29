@@ -9,7 +9,7 @@
 //  Desc:   This defines a fuzzy set that is a singleton (a range
 //          over which the DOM is always 1.0)
 //-----------------------------------------------------------------------------
-#include "../fuzzy/FuzzySet.h"
+#include "FuzzySet.h"
 #include "../misc/utils.h"
 
 

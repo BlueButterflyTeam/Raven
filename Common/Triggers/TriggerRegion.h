@@ -10,8 +10,8 @@
 //          TriggerRegion has one method, isTouching, which returns true if
 //          a given position is inside the region
 //-----------------------------------------------------------------------------
-#include "2d/Vector2d.h"
-#include "2d/InvertedAABBox2D.h"
+#include "../2d/Vector2d.h"
+#include "../2d/InvertedAABBox2D.h"
 
 class TriggerRegion
 {

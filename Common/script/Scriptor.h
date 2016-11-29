@@ -11,15 +11,15 @@
 //-----------------------------------------------------------------------------
 extern "C"
 {
-  #include <lua.h>
-  #include <lualib.h>
-  #include <lauxlib.h>
+#include "../lua-5.1.3/include/lua.h"
+  #include "../lua-5.1.3/include/lualib.h"
+  #include "../lua-5.1.3/include/lauxlib.h"
 }
 
-#pragma comment(lib, "lua.lib")
-#pragma comment(lib, "lualib.lib")
+#pragma comment(lib, "lua5.1.lib")
+//#pragma comment(lib, "lualib.lib")
 
-#include "LuaHelperFunctions.h"
+#include "../lua-5.1.3/include/LuaHelperFunctions.h"
 
 
 
@@ -31,10 +31,10 @@ private:
 
 public:
 
-  Scriptor():m_pLuaState(lua_open())
+  Scriptor():m_pLuaState(luaL_newstate())
   {
     //open the libraries
-    OpenLuaLibraries(m_pLuaState);
+    luaL_openlibs(m_pLuaState);
   }
 
   ~Scriptor(){lua_close(m_pLuaState);}

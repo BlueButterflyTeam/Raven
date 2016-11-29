@@ -8,8 +8,8 @@
 //          walls
 //-----------------------------------------------------------------------------
 
-#include "2d/Vector2D.h"
-#include "2d/Wall2d.h"
+#include "Vector2D.h"
+#include "Wall2d.h"
 
 
 //----------------------- doWallsObstructLineSegment --------------------------

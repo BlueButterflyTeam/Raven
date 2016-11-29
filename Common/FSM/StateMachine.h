@@ -13,7 +13,9 @@
 //------------------------------------------------------------------------
 #include <cassert>
 #include <string>
+#include <process.h>
 
+//#include "stdafx.h"
 #include "State.h"
 #include "Messaging/Telegram.h"
 
@@ -54,7 +56,7 @@ public:
   void  Update()const
   {
     //if a global state exists, call its execute method, else do nothing
-    if(m_pGlobalState)   m_pGlobalState->Execute(m_pOwner);
+	if (m_pGlobalState) m_pGlobalState->Execute(m_pOwner);
 
     //same for the current state
     if (m_pCurrentState) m_pCurrentState->Execute(m_pOwner);

@@ -1,4 +1,4 @@
-#include "../Debug/DebugConsole.h"
+#include "DebugConsole.h"
 #include <iterator>
 #pragma warning (disable : 4786)
 
@@ -194,7 +194,14 @@ LRESULT CALLBACK DebugConsole::DebugWindowProc(HWND hwnd,
           }
 
           std::vector<std::string>::iterator beg = m_Buffer.begin() + StartIndex;
-          std::vector<std::string>::iterator end = m_Buffer.begin() + StartIndex+PageSize+1;
+		  std::vector<std::string>::iterator end = beg;
+
+		  //advance end
+		  for (int i = 0; i < PageSize + 1; ++i)
+		  {
+			++end;
+			if (end == m_Buffer.end()) break;
+		}
 
           int line=0;
 

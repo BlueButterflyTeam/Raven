@@ -10,7 +10,7 @@
 //          activated when an entity moves within its region of influence.
 //
 //-----------------------------------------------------------------------------
-#include "game/BaseGameEntity.h"
+#include "../game/BaseGameEntity.h"
 #include "TriggerRegion.h"
 
 struct Telegram;

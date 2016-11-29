@@ -16,7 +16,6 @@
 #include <windows.h>
 
 
-
 #define Clock CrudeTimer::Instance()
 
 class CrudeTimer

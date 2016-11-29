@@ -1,10 +1,10 @@
-#include "../fuzzy/fuzzyvariable.h"
-#include "../fuzzy/fuzzyoperators.h"
-#include "../fuzzy/FuzzySet_triangle.h"
-#include "../fuzzy/FuzzySet_LeftShoulder.h"
-#include "../fuzzy/FuzzySet_RightShoulder.h"
-#include "../fuzzy/FuzzySet_Singleton.h"
-#include "../fuzzy/FzSet.h"
+#include "fuzzyvariable.h"
+#include "fuzzyoperators.h"
+#include "FuzzySet_triangle.h"
+#include "FuzzySet_LeftShoulder.h"
+#include "FuzzySet_RightShoulder.h"
+#include "FuzzySet_Singleton.h"
+#include "FzSet.h"
 #include "../misc/utils.h"
 #include <cassert>
 #include <iostream>

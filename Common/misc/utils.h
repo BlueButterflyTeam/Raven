@@ -172,7 +172,7 @@ inline T MinOf(const T& a, const T& b)
 template <class T, class U, class V>
 inline void Clamp(T& arg, const U& minVal, const V& maxVal)
 {
-  assert ( (minVal < maxVal) && "<Clamp>MaxVal < MinVal!");
+  assert ( ((double)minVal < (double)maxVal) && "<Clamp>MaxVal < MinVal!");
 
   if (arg < (T)minVal)
   {

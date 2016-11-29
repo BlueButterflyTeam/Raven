@@ -1,8 +1,8 @@
-#include "../misc/WindowUtils.h"
+#include "WindowUtils.h"
 #include <windows.h>
 #include "../2d/Vector2D.h"
-#include "../misc/utils.h"
-#include "../misc/Stream_Utility_Functions.h"
+#include "utils.h"
+#include "Stream_Utility_Functions.h"
 
 
 

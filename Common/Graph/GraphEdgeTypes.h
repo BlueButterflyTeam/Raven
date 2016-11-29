@@ -13,7 +13,7 @@
 #include <ostream>
 #include <fstream>
 
-#include "graph/NodeTypeEnumerations.h"
+#include "NodeTypeEnumerations.h"
 
 
 class GraphEdge

@@ -17,9 +17,9 @@
 #include <iostream>
 
 
-#include "2D/Vector2D.h"
-#include "misc/utils.h" 
-#include "graph/NodeTypeEnumerations.h"
+#include "../2D/Vector2D.h"
+#include "../misc/utils.h" 
+#include "NodeTypeEnumerations.h"
 
 
 
@@ -201,7 +201,7 @@ public:
         {
           ++curEdge;
 
-				if (end()) return NULL;
+		  if (end()) return NULL;
     
           return &(*curEdge);
 
@@ -243,6 +243,8 @@ public:
         const EdgeType*  begin()
         {        
           curEdge = G.m_Edges[NodeIndex].begin();
+
+		  if (end()) return 0;
     
           return &(*curEdge);
         }
@@ -251,14 +253,14 @@ public:
         {
           ++curEdge;
 
-				if(end())
-				{
-					return NULL;
-				}
-				else
-				{
-				return &(*curEdge);
-				}
+		  if(end())
+		  {
+			  return NULL;
+		  }
+		  else
+		  {
+			return &(*curEdge);
+		  }
 
         }
 
@@ -317,7 +319,7 @@ public:
       {
         ++curNode;
 
-				if (end()) return NULL;
+		if (end()) return NULL;
 
         GetNextValidNode(curNode);
 
@@ -379,16 +381,16 @@ public:
       {
         ++curNode;
 
-				if (end())
-				{
-					return NULL;
-				}
-				else
-				{
-					GetNextValidNode(curNode);
+		if (end())
+		{
+			return NULL;
+		}
+		else
+		{
+			GetNextValidNode(curNode);
 
-					return &(*curNode);
-				}
+			return &(*curNode);
+		}
       }
 
       bool end()
@@ -692,7 +694,7 @@ template <class node_type, class edge_type>
 void SparseGraph<node_type, edge_type>::SetEdgeCost(int from, int to, double NewCost)
 {
   //make sure the nodes given are valid
-  assert( (from < m_Nodes.size()) && (to < m_Nodes.size()) &&
+  assert( (from < (int)m_Nodes.size()) && (to < (int)m_Nodes.size()) &&
         "<SparseGraph::SetEdgeCost>: invalid index");
 
   //visit each neighbour and erase any edges leading to this node

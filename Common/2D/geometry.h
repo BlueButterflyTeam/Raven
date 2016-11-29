@@ -10,8 +10,8 @@
 //
 //------------------------------------------------------------------------
 #include "../misc/utils.h"
-#include "../2d/Vector2D.h"
-#include "../2d/C2DMatrix.h"
+#include "Vector2D.h"
+#include "C2DMatrix.h"
 #include "Transformations.h"
 
 #include <math.h>
